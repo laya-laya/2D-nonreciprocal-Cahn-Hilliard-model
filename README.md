@@ -20,4 +20,4 @@ $$
 
 Where $\varphi_1(z) =(e^z-1)/z $. The ETD formulation improves numerical stability by exactly resolving the linear growth while retaining an explicit pseudo-spectral evaluation of the nonlinear contribution.
 
-\href{https://arxiv.org/pdf/2605.23425}{arXiv}
+Read at [Laya et al. (2026)](https://arxiv.org/pdf/2605.23425)\).
