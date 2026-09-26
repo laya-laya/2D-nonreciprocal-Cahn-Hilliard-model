@@ -1,6 +1,6 @@
 # 2D-nonreciprocal-Cahn-Hilliard-model
 
-We numerically integrate the equation of motion using a pseudo-spectral method on a two-dimensional square periodic domain of side length $L$, discretized on an $N_x \times N_y$ uniform grid. In the simulations reported in the main paper, we start from random initial conditions and use $L=N_x=N_y=1024$ in the simulation shown in Fig. (1) and Fig. (3) in [Laya et al. (2026)](https://arxiv.org/pdf/2605.23425)\ and $L=N_x=N_y=512$ in the simulation shown in Fig. (2). To rule out finite-size effects, we also verified the robustness of these states, particularly ITC, in larger systems of size $L=N_x=N_y=2048$, without observing any qualitative changes.
+We numerically integrate the equation of motion using a pseudo-spectral method on a two-dimensional square periodic domain of side length $L$, discretized on an $N_x \times N_y$ uniform grid. In the simulations reported in the main paper, we start from random initial conditions and use $L=N_x=N_y=1024$ in the simulation shown in Fig. (1) and Fig. (3) in [Laya Parkavousi and Suropriya Saha. (2026)](https://arxiv.org/pdf/2605.23425) and $L=N_x=N_y=512$ in the simulation shown in Fig. (2). To rule out finite-size effects, we also verified the robustness of these states, particularly ITC, in larger systems of size $L=N_x=N_y=2048$, without observing any qualitative changes.
 
 To reduce aliasing errors from the pseudo-spectral evaluation of the nonlinear term, we app standard 2/3-dealiasing rule in Fourier space. Modes satisfying
 
